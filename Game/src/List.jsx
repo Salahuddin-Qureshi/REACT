@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function App() {
+function List() {
   const [todos, setTodos] = useState([]);
   const [input, setInput] = useState('');
   const [selectedStatus, setSelectedStatus] = useState('toDo');
@@ -88,4 +88,4 @@ function App() {
   );
 }
 
-export default App;
+export default List;
